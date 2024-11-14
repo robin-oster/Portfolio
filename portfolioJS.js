@@ -38,15 +38,21 @@ let options = {
   }
   
 let observer = new IntersectionObserver(handleIntersect, options);
-let target = document.querySelectorAll('.workEntry');
-observer.observe(target[0]);  
+let target = document.querySelectorAll('.card-body');
+observer.observe(target[0]);
 observer.observe(target[1]);  
-observer.observe(target[2]);  
+observer.observe(target[2]);
+observer.observe(target[3]);
+observer.observe(target[4]);
 
 function handleIntersect(entries, observer) {
     entries.forEach((entry) => {
-        entry.target.style.opacity = entry.intersectionRatio;
-
+        if(entry === entry[0]){
+            entry.target.style.opacity = entry.intersectionRatio * 1.1;
+        }
+        else{
+            entry.target.style.opacity = entry.intersectionRatio * 1.5;
+        }
     })
 }
 

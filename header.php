@@ -21,7 +21,7 @@
                                 <a class="nav-link" aria-current="page" href="#workRow" id="workNavLink">WORK</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="RobinsResume.pdf" target="_blank">RESUME</a>
+                                <a class="nav-link" aria-current="page" href="RobinResume.pdf" target="_blank" title="Resume">RESUME</a>
                             </li>
                             <li class="nav-item me-0">
                                 <a class="nav-link" aria-current="page" href="#contactPage" id="contactNavLink">CONTACT</a>

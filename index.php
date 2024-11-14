@@ -7,8 +7,12 @@
     <title>Robin Oster, Web Developer</title>
     <link href="bootstrap-5.2.0-dist/css/bootstrap.css" rel="stylesheet">
     <link href="styles.css" rel=stylesheet>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/devicon/2.16.0/devicon.min.css">
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
   </head>
 <body id="particle-background">
     <div id="particles-js"></div>
@@ -50,46 +54,32 @@
                   </div>
                   <div class="row">
                   <div class="col-md-12" id="technologies1">
-                    <table>
-                      <tr>
-                        <th><i class="devicon-cplusplus-line"></i></th>
-                        <th><i class="devicon-html5-plain-wordmark"></i></th>
-                        <th><i class="devicon-css3-plain-wordmark"></i></th>
-                        <th><i class="devicon-javascript-plain"></i></th>
-                      </tr>
-                    </table>
+                        <i class="devicon-html5-plain-wordmark"></i>
+                        <i class="devicon-css3-plain-wordmark"></i>
+                        <i class="devicon-javascript-plain"></i>
+                        <i class="devicon-nodejs-plain-wordmark"></i>
+                        <i class="devicon-react-original-wordmark"></i>
+                        <i class="devicon-express-original-wordmark"></i>
+                        <i class="devicon-php-plain"></i>
                   </div>
-                <div class="row">
-                    <div class="col-md-12" id="technologies2">
-                      <table>
-                        <tr>
-                        <th><i class="devicon-git-plain-wordmark"></i></th>
-                        <th><i class="devicon-bootstrap-plain-wordmark"></i></th>
-                        <th><i class="devicon-github-original-wordmark"></i></th>
-                        <th> <i class="devicon-mongodb-plain-wordmark"></i></th>
-                      </tr>
-                      </table>
-                    </div>
-                  </div>
-                </div>
                 <div class="row">
                   <div class="col-md-12" id="technologies3">
-                      <table>
-                        <tr>
-                        <th><i class="devicon-mysql-plain"></i></th>
-                        <th><i class="devicon-nodejs-plain"></i></th>
-                        <th><i class="devicon-react-original-wordmark"></i></th>
-                        <th><i class="devicon-python-plain-wordmark"></i></th>
-                      </tr>
-                      </table>
+                        <i class="devicon-git-plain-wordmark"></i>
+                        <i class="devicon-bootstrap-plain-wordmark"></i>
+                        <i class="devicon-github-original-wordmark"></i>
+                        <i class="devicon-mongodb-plain-wordmark"></i>
+                        <i class="devicon-mysql-plain-wordmark"></i>
+                        <i class="devicon-amazonwebservices-plain-wordmark"></i>
+                        <i class="devicon-dynamodb-plain"></i>
+                        <i class="devicon-cplusplus-line"></i>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-md-6">
-              <img src="computerIMG.jpg">
-            </div>
+        </div>
+        <div class="col-md-6">
+              <img src="computerIMG.jpg" class="computerIMG">
         </div>
           <?php require_once "work.php"?>
           <?php require_once "contact.php"?>
