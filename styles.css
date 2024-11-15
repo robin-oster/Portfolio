@@ -156,9 +156,10 @@ main > .row{
 }
 
 .workTitle{
-    margin-top: 1rem;
-    margin-bottom: 1.5rem;
-    background-color: #030e22;
+    display: block !important;
+    margin-top: 1rem !important;
+    margin-bottom: 1.5rem !important;
+    background-color: #030e22 !important;
 }
 
 .computerIMG{
