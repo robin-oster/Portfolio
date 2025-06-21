@@ -5,15 +5,11 @@
     <div class="container-fluid">
         <div class="row" id="workRow">
             <div class="row" id="aboutRow">
-            <div class="col-lg-5" class="aboutLeft">
-                <hr id="leftLine"/>
+            <div class="col-lg-12" class="aboutCenter">
+                <hr class="divisionLineRight"/>
+            <h1 class="sectionHeader">Work</h1>
+            <hr class="divisionLineLeft"/>
             </div>
-            <div class="col-lg-2" class="aboutCenter">
-            <h1>Work</h1>
-            </div>
-            <div class="col-lg-5" class="aboutRight">
-                <hr id="rightLine"/>
-        </div>
         <a id="workPage"></a>
             <div class="row g-0" >
                 <div class="col-md-6">

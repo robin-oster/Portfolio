@@ -4,14 +4,10 @@
 <link href="styles.css" rel=stylesheet>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-lg-5" class="aboutLeft">
-                <hr id="leftLine"/>
-            </div>
-            <div class="col-lg-2" class="aboutCenter">
-            <h1>Contact</h1>
-            </div>
-            <div class="col-lg-5" class="aboutRight">
-                <hr id="rightLine"/>
+            <div class="col-lg-12" class="aboutCenter">
+                <hr class="divisionLineRight"/>
+            <h1 class="sectionHeader">Contact</h1>
+            <hr class="divisionLineLeft"/>
             </div>
         </div>
         <a id="contactPage"></a>

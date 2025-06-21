@@ -22,14 +22,10 @@
     </div>  
     <div class="row g-0">
           <div class="row g-0" id="about">
-            <div class="col-lg-5" class="aboutLeft">
-              <hr id="leftLine"/>
-            </div>
-            <div class="col-lg-2" class="aboutCenter">
-            <h1>About Me</h1>
-            </div>
-            <div class="col-lg-5" class="aboutRight">
-              <hr id="rightLine"/>
+            <div class="col-lg-12" id="aboutCenter">
+            <hr class="divisionLineRight">
+            <h1 class="sectionHeader">About Me</h1>
+            <hr class="divisionLineLeft">
             </div>
           </div>
           <div id="aboutPage"></div>
@@ -38,7 +34,7 @@
               <div class="card" id="aboutCard">
                 <div class="card-body">
                   <div class="col-md-12">
-                    <span><h2 id="introduction">Hello! I'm <span id="name">&nbsp;Robin Oster.</span></h2></span>
+                    <span><h2 id="introduction">Hello! I'm <span id="name">Robin Oster.</span></h2></span>
                       <p id="infoText1">I'm a full stack web developer, programmer, and illustrator with a passion for design and creating solid, scalable interfaces.</p>
                   </div>
                   <div class="col-md-12">
@@ -51,9 +47,6 @@
                   </div>
                   <div class="col-md-12">
                     <p id="infoText3">Technologies I'm proficient with: </p>
-                  </div>
-                  <div class="row">
-                  <div class="col-md-12" id="technologies1">
                         <i class="devicon-html5-plain-wordmark"></i>
                         <i class="devicon-css3-plain-wordmark"></i>
                         <i class="devicon-javascript-plain"></i>
@@ -61,9 +54,6 @@
                         <i class="devicon-react-original-wordmark"></i>
                         <i class="devicon-express-original-wordmark"></i>
                         <i class="devicon-php-plain"></i>
-                  </div>
-                <div class="row">
-                  <div class="col-md-12" id="technologies3">
                         <i class="devicon-git-plain-wordmark"></i>
                         <i class="devicon-bootstrap-plain-wordmark"></i>
                         <i class="devicon-github-original-wordmark"></i>
@@ -76,9 +66,8 @@
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-        <div class="col-md-6">
+        
+        <div class="col-md-6" id="computerIMGColumn">
               <img src="computerIMG.jpg" class="computerIMG">
         </div>
           <?php require_once "work.php"?>

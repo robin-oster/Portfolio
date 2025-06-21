@@ -46,12 +46,14 @@ observer.observe(target[3]);
 observer.observe(target[4]);
 
 function handleIntersect(entries, observer) {
+    var count = 0;
     entries.forEach((entry) => {
-        if(entry === entry[0]){
-            entry.target.style.opacity = entry.intersectionRatio * 1.1;
+        count += 1;
+        if((count == 0) || (count ==1)){
+            entry.target.style.opacity = entry.intersectionRatio + .34;
         }
         else{
-            entry.target.style.opacity = entry.intersectionRatio * 1.5;
+            entry.target.style.opacity = entry.intersectionRatio + .2;
         }
     })
 }

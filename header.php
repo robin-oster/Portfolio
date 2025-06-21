@@ -3,16 +3,10 @@
 
 <header>
     <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-8">
-
-            </div>
-            <div class="col-md-4">
-                <nav class="navbar navbar-expand-lg">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="navbar-collapse collapse w-100 order-3 dual-collapse2" id="navbarSupportedContent">
+        <nav class="navbar navbar-expand-lg">
+            <div class="row">
+                <div class="col-md-12">
+                
                         <ul class="navbar-nav" >
                             <li class="nav-item">
                                 <a class="nav-link active" aria-current="page" href="#about" id="aboutNavLink">HOME</a>
@@ -27,9 +21,8 @@
                                 <a class="nav-link" aria-current="page" href="#contactPage" id="contactNavLink">CONTACT</a>
                             </li>
                         </ul>
-                    </div>
-                </nav>
+                </div>
             </div>
-        </div>
+        </nav>
     </div>
 </header>
