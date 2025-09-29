@@ -40,9 +40,7 @@
                                     </div>
                                         <div class="row">
                                             <div class="col-md-12">
-                                                <i class="devicon-html5-plain-wordmark"></i>
-                                                <i class="devicon-css3-plain-wordmark"></i>
-                                                <i class="devicon-javascript-plain"></i>
+                                                <i class="devicon-react-plain"></i>
                                                 <i class="devicon-amazonwebservices-plain-wordmark"></i>
                                                 <i class="devicon-express-original-wordmark"></i>
                                                 <i class="devicon-dynamodb-plain"></i>
@@ -51,82 +49,7 @@
                                     <div class="row">
                                         <div class="col-md-12">
                                             <a href="https://github.com/Civilience" class="githubLink">Github</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row workEntry g-0">
-                        <div class="col-md-12 projDesc">
-                            <div class="card">
-                                <div class="card-body">
-                                    <div class="row">
-                                        <h2 class="workTitle">PORTFOLIO SITE</h2>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <p> You're looking at it! Many thanks to the developers over at particles.js!
-
-                                            </p>
-                                            <p> Created using: </p>
-                                        </div>
-                                    </div>
-                                        <div class="row">
-                                            <div class="col-md-12">
-                                                <i class="devicon-html5-plain-wordmark"></i>
-                                                <i class="devicon-css3-plain-wordmark"></i>
-                                                <i class="devicon-javascript-plain"></i>
-                                                <i class="devicon-bootstrap-plain-wordmark"></i>
-                                                <i class="devicon-php-plain"></i>
-                                            </div>
-                                        </div>
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <a href="https://github.com/nwodzis2/Passflare" class="githubLink">Github</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="row workEntry g-0">
-                        <div class="col-md-12 projDesc">
-                            <div class="card">
-                                <div class="card-body">
-                                    <div class="row">
-                                        <h2 class="workTitle">PASSFLARE</h2>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <img src="passflareIMG.png" class="workIMG"/>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <p>An extensive, responsive ticketing management system, with multiple views for ticketholders,
-                                                gatekeepers, and organization administrators. Allows users to browse and purchase tickets
-                                                for events in their area, and organization administrators create events and view statistics.
-                                            </p>
-                                            <p> Created using: </p>
-                                        </div>
-                                    </div>
-                                        <div class="row">
-                                            <div class="col-md-12">
-                                                <i class="devicon-html5-plain-wordmark"></i>
-                                                <i class="devicon-css3-plain-wordmark"></i>
-                                                <i class="devicon-javascript-plain"></i>
-                                                <i class="devicon-react-original-wordmark"></i>
-                                                <i class="devicon-nodejs-plain-wordmark"></i>
-                                                <i class="devicon-mongodb-plain-wordmark"></i>
-                                                <i class="devicon-express-original-wordmark"></i>
-                                            </div>
-                                        </div>
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <a href="https://github.com/nwodzis2/Passflare" class="githubLink">Github</a>
+                                            <a href="https://www.civilience.app/" class="githubLink">Live Site</a>
                                         </div>
                                     </div>
                                 </div>
@@ -165,14 +88,96 @@
                                         </div>
                                     <div class="row">
                                         <div class="col-md-12">
-                                            <a href="https://github.com/nwodzis2/Passflare" class="githubLink">Github</a>
+                                            <a href="https://github.com/robin-oster/php-tourism" class="githubLink">Github</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    
-                    
+                </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="row workEntry g-0">
+                        <div class="col-md-12 projDesc">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <h2 class="workTitle">Theaterate</h2>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <img src="theaterate.png" class="workIMG" id="theaterateIMG"/>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <p>A responsive custom webapp focused around keeping up with the latest trending media and contributing to user ratings.
+                                                <br/><br/>
+                                                After making an account, allows the user to search for their favorite shows and movies, displaying information for each of them, and
+                                                letting the user to contribute to real-world ratings. Made using Next.js, Typescript, and TailwindCSS, with extensive use of TMDB API
+                                                for media information and ratings.
+                                                
+                                                Uses cookie-based authentication and email verification.
+                                            </p>
+                                            <p> Created using: </p>
+                                        </div>
+                                    </div>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <i class="devicon-nextjs-plain-wordmark"></i>
+                                                <i class="devicon-typescript-plain"></i>
+                                                 <i class="devicon-tailwindcss-plain-wordmark"></i>
+                                                <i class="devicon-supabase-plain"></i>
+                                            </div>
+                                        </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <a href="https://github.com/Civilience" class="githubLink">Github</a>
+                                            <a href="https://theatrate.vercel.app/" class="githubLink">Live Site</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row workEntry g-0">
+                        <div class="col-md-12 projDesc">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <h2 class="workTitle">PASSFLARE</h2>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <img src="passflareIMG.png" class="workIMG"/>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <p>An extensive, responsive ticketing management system, with multiple views for ticketholders,
+                                                gatekeepers, and organization administrators. Allows users to browse and purchase tickets
+                                                for events in their area, and organization administrators create events and view statistics.
+                                            </p>
+                                            <p> Created using: </p>
+                                        </div>
+                                    </div>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <i class="devicon-react-original-wordmark"></i>
+                                                <i class="devicon-nodejs-plain-wordmark"></i>
+                                                <i class="devicon-mongodb-plain-wordmark"></i>
+                                                <i class="devicon-express-original-wordmark"></i>
+                                            </div>
+                                        </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <a href="https://github.com/nwodzis2/Passflare" class="githubLink">Github</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

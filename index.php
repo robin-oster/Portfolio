@@ -50,8 +50,11 @@
                         <i class="devicon-html5-plain-wordmark"></i>
                         <i class="devicon-css3-plain-wordmark"></i>
                         <i class="devicon-javascript-plain"></i>
+                        <i class="devicon-typescript-plain"></i>
                         <i class="devicon-nodejs-plain-wordmark"></i>
                         <i class="devicon-react-original-wordmark"></i>
+                        <i class="devicon-nextjs-plain-wordmark"></i>
+                         <i class="devicon-tailwindcss-plain-wordmark"></i>
                         <i class="devicon-express-original-wordmark"></i>
                         <i class="devicon-php-plain"></i>
                         <i class="devicon-git-plain-wordmark"></i>
