@@ -77,7 +77,7 @@
           <?php require_once "contact.php"?>
         <footer>
           <div class="row g-0" id="linksRow">
-            <div class="col-md-12" id="linksCol">
+            <div class="col-md-8" id="linksCol">
                   <a href="https://github.com/spageddy-jones"><i class="devicon-github-original-wordmark"></i></a>
                   <a href="https://twitter.com/spageddy_jones"><i class="devicon-twitter-original"></i></a>
                   <a href="https://www.linkedin.com/in/robin-oster-2505a31b6/"><i class="devicon-linkedin-plain"></i></a>
@@ -95,6 +95,5 @@
       console.log('callback - particles.js config loaded');
     });</script>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script src="portfolioJS.js"></script>
 </body>
 </html>

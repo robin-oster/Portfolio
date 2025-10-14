@@ -34,12 +34,6 @@ p, h1, h2, a, img, table, td, th, tr, i {
     z-index: 10;
 }
 
-i {
-    font-size: 10rem;
-    padding-bottom: 2rem;
-    margin-bottom: 2rem;
-}
-
 header, html *{
     position: relative;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -275,7 +269,7 @@ footer {
 }
 
 .workIMG {
-    width: 80%;
+    width: 100%;
     position: relative;
     display: flex;
     justify-content: center;
@@ -325,7 +319,7 @@ footer {
 }
 
 #civilienceIMG{
-    width: 50%;
+    width: 80%;
     overflow: hidden;
 }
 
@@ -431,7 +425,7 @@ footer {
 #linksRow{
     display: flex;
     justify-content: center;
-    margin-bottom: 3rem;
+   
 }
 
 #linksCol{
@@ -440,21 +434,17 @@ footer {
 }
 
 #linksCol a i{
-    padding: 4rem;
+    padding: 1rem;
     color:#00FF9A;
+    font-size: 2.5rem;
     text-decoration: none;
 }
 
-
-
-#emailIcon {
-    font-size: 3.5rem;
-    top: -4rem;
-}
-
-#emailIcon:hover {
-    font-size: 4rem;
-    top: -4rem;
+#linksCol a i:hover{
+    padding: 1rem;
+    color:#00FF9A;
+    font-size: 3rem;
+    text-decoration: none;
 }
 
 #about{
@@ -493,3 +483,6 @@ footer {
     margin-left: 1.2rem;
 }
 
+#emailIcon{
+    margin-top: -1rem !important;
+}
